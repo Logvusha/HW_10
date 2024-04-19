@@ -1,0 +1,83 @@
+    1  git config --global user.name "Kateryna Hamalii"
+    2  git config --global user.name "logvusha.hom@gmail.com"
+    3  clear 
+    4  clone https://github.com/Logvusha/HW_10.git
+    5  cd /c/Users/denss/Desktop/QA35
+    6  ls -l
+    7  git clone https://github.com/Logvusha/HW_10.git
+    8  clear
+    9  git clone https://github.com/Logvusha/HW_10.git
+   10  git clone https://github.com/Logvusha/HW_10.git
+   11  /c/Users/denss/Desktop/QA35/HW_10
+   12  touch text_ignore.txt
+   13  ls -l
+   14  clear
+   15  cd /c/Users/denss/Desktop/QA35/HW_10
+   16  ls -l
+   17  touch text_ignore.txt
+   18  ls -l
+   19  cd /c/Users/denss/Desktop/QA35/HW_10/.gitignore
+   20  ls -l
+   21  clear
+   22  cd /c/Users/denss/Desktop/QA35/HW_10/.gitignore
+   23  vim .gitignore
+   24  ls -l
+   25  cat .gitignore
+   26  clear
+   27  git status
+   28  git add text_ignore.txt
+   29  git status
+   30  git add .gitignore
+   31  git status
+   32  clear
+   33  git commit -m "First commit"
+   34  git push
+   35  clear
+   36  cd /c/Users/denss/Desktop/QA35/HW_10
+   37  ls -l
+   38  touch main_test.txt
+   39  ls -l
+   40  git status
+   41  clear
+   42  git add main_test.txt
+   43  git status
+   44  git commit -m "Second commit"
+   45  git push
+   46  clear
+   47  git branch
+   48  cd /c/Users/denss/Desktop/QA35/HW_10
+   49  git branch
+   50  git checkout -b develop
+   51  git branch
+   52  clear
+   53  touch develop_test.txt
+   54  ls -l
+   55  git status
+   56  git add develop_test.txt
+   57  git status
+   58  git commit -m "Three commit"
+   59  clear
+   60  git checkout main
+   61  git merge develop
+   62  git push
+   63  clear
+   64  git branch
+   65  git checkout develop
+   66  git branch
+   67  ls -l
+   68  clear
+   69  cd /c/Users/denss/Desktop/QA35/HW_10/develop_test.txt
+   70  cat develop_test.txt
+   71  vim develop_test.txt
+   72  git status
+   73  git add develop_test.txt
+   74  git commit -m "Four commit"
+   75  clear
+   76  git checkout main
+   77  git merge develop
+   78  git push
+   79  git log
+   80  clear
+   81  cd /c/Users/denss/Desktop/QA35/HW_10/develop_test.txt
+   82  cat develop_test.txt
+   83  history > command_list.csv
