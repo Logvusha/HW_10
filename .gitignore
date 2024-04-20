@@ -1,4 +1,4 @@
-text_ignore.txt### AL ###
+
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
 .vscode/
@@ -11,12 +11,13 @@ text_ignore.txt### AL ###
 #Testing Output folder
 .output/
 #Extension App-file
-*.app
+.app
 #Rapid Application Development File
 rad.json
 #Translation Base-file
-*.g.xlf
+.g.xlf
 #License-file
-*.flf
+.flf
 #Test results file
 TestResults.xml
+text_ignore.txt ### AL ###
